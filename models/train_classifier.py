@@ -109,7 +109,6 @@ def build_model():
 def evaluate_model(model, X_test, Y_test, category_names):
     Y_pred = model.predict(X_test)
     Y_pred = pd.DataFrame (Y_pred, columns = Y_test.columns)
-    print(Y_test.describe(), Y_pred.describe())
     for column in Y_test.columns:
         print('Model accuracy for: {}'.format(column))
         print(classification_report(Y_test[column],Y_pred[column]))
