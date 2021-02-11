@@ -1,5 +1,15 @@
 # Disaster Response Pipeline Project
 
+## Description
+
+In this project, I have built a Natural Language Processing (NLP) model to categorize messages on a real time. It is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The dataset contains pre-labelled tweet and messages from real-life disaster events. The project aim is to build a Natural Language Processing (NLP) model to categorize messages on a real time basis.
+
+This project is divided in the following key sections:
+
+1. Processing data, building an ETL pipeline to extract data from source, clean the data and save them in a SQLite DB
+2. Build a machine learning pipeline to train the which can classify text message in various categories
+3. Run a web app which can show model results in real time
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
